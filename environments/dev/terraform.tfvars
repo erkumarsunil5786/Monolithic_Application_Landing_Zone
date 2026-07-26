@@ -10,6 +10,17 @@ rgs = {
       Owner       = "DevOps"
     }
   }
+    web2 = {
+    rg_name    = "dev-rg-web2"
+    location   = "Central India"
+    managed_by = "Terraform"
+
+    tags = {
+      Environment = "Dev"
+      Project     = "ThreeTierApp"
+      Owner       = "DevOps"
+    }
+  }
 }
 vnets = {
   dev = {
